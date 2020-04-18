@@ -31,7 +31,7 @@ def summon_captain_planet(planeteer_calls)
 #    element.concat("!")
     planeteer_calls.collect do |element| 
 #      element.concat("!")
-      element.upcase
+      element.upcase()
   end
   planeteer_calls
 end
