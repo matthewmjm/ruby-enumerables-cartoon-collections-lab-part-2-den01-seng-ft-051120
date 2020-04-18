@@ -26,13 +26,27 @@ def square_array(array)
   end
 end
 
+#def summon_captain_planet(planeteer_calls)
+#  planeteer_calls.map do |item1|
+#   item1.concat("!")
+#   item1.capitalize
+#  end
+#  planeteer_calls
+#end
+
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map do |item1|
-   item1.concat("!")
- #  item1.capitalize
+  newArray = []
+  i = 0
+  while i < planeteer_calls.length do
+   newArray.push(planeteer_calls[i])  
+  i += 1
   end
-  planeteer_calls
+  newArray
 end
+
+
+
+
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? do |element|
