@@ -30,7 +30,6 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |element|
 #    element.concat("!")
    element.capitalize
-   string.split.map(&:capitalize).join(' ')
   end
   planeteer_calls
 end
