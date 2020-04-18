@@ -38,7 +38,7 @@ def summon_captain_planet(planeteer_calls)
   newArray = []
   i = 0
   while i < planeteer_calls.length do
-   newArray.push(planeteer_calls[i])  
+   newArray.push(planeteer_calls[i].concat("!"))  
   i += 1
   end
   newArray
