@@ -27,9 +27,9 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map(&:capitalize) do |element|
-    element.concat("!")
-#    element.upcase()
+  planeteer_calls.map do |element|
+#    element.concat("!")
+#   element.upcase()
   end
   planeteer_calls
 end
