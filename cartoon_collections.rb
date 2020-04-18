@@ -63,11 +63,11 @@ end
 #  planeteer_calls.detect
 #    planeteer_calls.include? valid_calls
 #end
-def find_valid_calls(planeteer_calls)
-  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  i = 0
-  while i < planeteer_calls.length do
-    valid_calls.find { |element| element == planeteer_calls[i] }
-    i += 1
-  end
-end
+#def find_valid_calls(planeteer_calls)
+#  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+#  i = 0
+#  while i < planeteer_calls.length do
+#    valid_calls.find { |element| element == planeteer_calls[i] }
+#    i += 1
+#  end
+#end
