@@ -32,13 +32,13 @@ def summon_captain_planet(planeteer_calls)
 #    "#{element.capitalize}!"
 #    element.split.map(&:capitalize)*'!'
  #     element.capitalize()
-    new_array = Array.new
-    count = 0
-    while count < planeteer_calls.count do
-      planeteer_calls.capitalize
-      i += 1
-    end
-
+ #   new_array = Array.new
+ #   count = 0
+ #   while count < planeteer_calls.count do
+ #     planeteer_calls.capitalize
+ #     i += 1
+ #   end
+      a.collect {|x| x + "!" } 
 
   end
   planeteer_calls
