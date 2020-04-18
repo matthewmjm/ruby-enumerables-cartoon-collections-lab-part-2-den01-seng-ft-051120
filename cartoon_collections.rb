@@ -65,6 +65,10 @@ end
 #end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-
+  i = 0
+  while i < planeteer_calls.length do
+    if planeteer_calls[i] 
+    
+  end
 
 end
