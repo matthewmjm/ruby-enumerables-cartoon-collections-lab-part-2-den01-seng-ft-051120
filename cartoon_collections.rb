@@ -30,8 +30,9 @@ def summon_captain_planet(planeteer_calls)
 #  planeteer_calls.map do |element|
 #    element.concat("!")
     planeteer_calls.collect do |element| 
-#      element.concat("!")
+      element.concat("!")
       element.upcase()
+      map(&:capitalize)
   end
   planeteer_calls
 end
