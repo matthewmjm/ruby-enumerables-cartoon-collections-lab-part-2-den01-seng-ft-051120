@@ -31,6 +31,7 @@ def summon_captain_planet(planeteer_calls)
 #   item1.concat("!")
 #   item1.capitalize
    item1.concat("!").capitalize
+   item1.capitalize.concat("!")
   end
   planeteer_calls
 end
