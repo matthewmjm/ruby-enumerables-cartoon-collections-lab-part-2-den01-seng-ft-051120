@@ -71,5 +71,3 @@ def find_valid_calls(planeteer_calls)
     i += 1
   end
 end
-arr = [12, 88, 107, 500]
-arr.find { |num| num > 100 }
