@@ -29,17 +29,8 @@ end
 def summon_captain_planet(planeteer_calls)
 #  planeteer_calls.map do |element|
 #    element.concat("!")
-#    "#{element.capitalize}!"
-#    element.split.map(&:capitalize)*'!'
- #     element.capitalize()
- #   new_array = Array.new
- #   count = 0
- #   while count < planeteer_calls.count do
- #     planeteer_calls.capitalize
- #     i += 1
- #   end
-      planeteer_calls.collect 
-      do |x| x + "!" 
+    planeteer_calls.collect do |x| 
+      x + "!" 
   end
   planeteer_calls
 end
