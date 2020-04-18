@@ -28,7 +28,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |item1|
- #  item1.concat("!")
+   item1.concat("!")
  #  item1.capitalize
   end
   planeteer_calls
