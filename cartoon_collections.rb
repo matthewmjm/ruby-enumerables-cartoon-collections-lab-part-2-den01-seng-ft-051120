@@ -36,8 +36,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? do |element|
-    word.length >= 3
-
+    element.length >= 4
 end
 
 def find_valid_calls(planeteer_calls)
