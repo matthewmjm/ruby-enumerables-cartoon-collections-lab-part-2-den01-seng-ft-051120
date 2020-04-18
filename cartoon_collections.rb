@@ -67,8 +67,9 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   i = 0
   while i < planeteer_calls.length do
-    if planeteer_calls[i] 
-    
+    valid_calls.find { |element| element == planeteer_calls[i] }
+    i += 1
   end
-
 end
+arr = [12, 88, 107, 500]
+arr.find { |num| num > 100 }
