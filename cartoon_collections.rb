@@ -76,6 +76,7 @@ def find_valid_calls(planeteer_calls)
   i = 0
   while i < planeteer_calls.length do
     valid_calls.find { |element| element == planeteer_calls[i] }
+    binding.pry
     i += 1
   end
 end
