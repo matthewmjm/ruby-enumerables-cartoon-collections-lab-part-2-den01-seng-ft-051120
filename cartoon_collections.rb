@@ -38,8 +38,8 @@ def summon_captain_planet(planeteer_calls)
  #     planeteer_calls.capitalize
  #     i += 1
  #   end
-      a.collect {|x| x + "!" } 
-
+      planeteer_calls.collect 
+      do |x| x + "!" 
   end
   planeteer_calls
 end
